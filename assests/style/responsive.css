@@ -33,4 +33,8 @@
         float: none;
         width: 50%;
     }
+    
+    .container-main {
+        margin-top: -70px;
+    }
 }
