@@ -5,12 +5,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\css\style.css">
-    <title>Footer</title>
+    <link rel="stylesheet" href="assests\style\style.css">
+    <title>Simple Travel Agent</title>
 </head>
 <body>
+<main>
+  <div class="container">       
+    <header>
+        <div class="top-header">
+            <h1><span>A08</span> AGENCY</h1>
+            <p><span>Call for Info</span> +62 21 2022 2022</p>
+        </div>
+        <div class="header-section">
+            <h1>PLAN YOUR VACATIONS</h1>
+            <P>BOOK NOW AND SAVE MONEY</P>
 
-  <h1>hellow world</h1>
+            <div class="form-header">
+                <h1>START HERE!</h1>
+                <P>To see the world and joint us, for the best trip. </P>
+                <form>
+                    <label for="full-name"></label>
+                    <input type="text" id="full-name" placeholder="Full Name"/><br>
+                    <label for="phone-number"></label>
+                    <input type="text" id="phone-numeber" placeholder="Phone Number"/><br>
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="Email Adress"/><br>
+                    <button type="submit" class="btn-register">REGISTER NOW</button>
+                </form>
+            </div>
+        </div>
+    </header>
+  </div>
 
+  <div class="container-main">
+    <div class="heading-main">
+      <h1>POPULAR TOURS</h1>
+      <p>
+        Sometimes, love is like a tour. You stop in many places, but there
+        is always one that is your favorite.
+      </p>
+      <p>
+        Travelling - it leaves you speechless, then turns you into a
+        storyteller
+      </p>
+    </div>
+    <div class="travels">
+      <div class="card">
+        <img
+          src="assests\img\jogja.jpg"
+          alt="Avatar"
+          style="width: 100%"
+        />
+        <div class="container">
+          <h4><b>Yogyakarta</b></h4>
+          <p>FROM $123</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assests\img\bali.jpg" alt="Avatar" style="width: 100%" />
+        <div class="container">
+          <h4><b>Bali</b></h4>
+          <p>FROM $456</p>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="assests\img\jakarta.jpg"
+          alt="Avatar"
+          style="width: 100%"
+        />
+        <div class="container">
+          <h4><b>Jakarta</b></h4>
+          <p>FROM $234</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="message-wrapper">
+      <div class="container">
+         <div class="heading">
+           <h2>Ready to visit us?</h2>
+           <h3>Let's enjoy your vacation!</h3>
+         </div>
+         <span class="btn message">Let's Explore</span>
+      </div>
+  </div>
+</main>
+<footer>
+  <div class="footer-wrap">
+    <div class="widgetFooter">
+      <h4 class="uppercase">useful links</h4>
+      <ul id="footerUsefulLink">
+        <li title="About US">
+          <span class="usefulLinksIcons">
+            <i class="far fa-id-card"></i>
+          </span>
+          <a>&nbsp;About us</a>
+        </li>
+        <li title="Our Team">
+          <span class="usefulLinksIcons">
+            <i class="far fa-handshake"></i>
+          </span>
+          <a>&nbsp;Our team</a>
+        </li>
+        <li title="Gallery">
+          <span class="usefulLinksIcons">
+            <i class="far fa-images"></i>
+          </span>
+          <a>&nbsp;Gallery</a>
+        </li>
+        <li title="Contact Us">
+          <span class="usefulLinksIcons">
+            <i class="far fa-envelope"></i>
+          </span>
+          <a>&nbsp;Contact us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="widgetFooter" id="footerLogo">
+      <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/100/000000/external-plane-farm-flaticons-lineal-color-flat-icons-2.png"/>
+    </div>
+    <div class="widgetFooter">
+      <h4 class="uppercase">Social media links</h4>
+      <ul id="footerMediaLinks">
+        <li class="media1" title="Facebook">
+          <span class="mediaLinksIcons fb">
+            <i class="fab fa-facebook-square"></i>
+          </span>
+          <a class="fb">&nbsp;facebook</a>
+        </li>
+        <li class="media2" title="Twitter">
+          <span class="mediaLinksIcons twit">
+            <i class="fab fa-twitter-square"></i>
+          </span>
+          <a class="twit">&nbsp;Twitter</a>
+        </li>
+        <li class="media3"  title="Instagram">
+          <span class="mediaLinksIcons insta">
+            <i class="fab fa-instagram"></i>
+          </span>
+          <a class="insta">&nbsp;instagram</a>
+        </li>
+        <li class="media4" title="Github">
+          <span class="mediaLinksIcons git">
+            <i class="fab fa-github-alt"></i>
+          </span>
+          <a class="git">&nbsp;Github</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footerCopy">
+    <div class="inb">
+      <p>Copyrights<sup>&copy;</sup> 2022. Developed <i class="fas fa-heart" style="color: red;"></i> by A08 team</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
