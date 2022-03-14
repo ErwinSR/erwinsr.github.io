@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+
+    .top-header h1 {
+        font-size: 22px;
+    }
+
+    .top-header p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    form {
+        display: none;
+    }
+    
+    .header-section .form-header {
+        right: 125px;
+        margin-top: 200px;
+    }
+
+    .form-header h1 {
+        font-size: 14px;
+    }
+
+    .form-header p {
+        font-size: 10px;
+    }
+
+    .card {
+        margin: 0 auto;
+        float: none;
+        width: 50%;
+    }
+}
